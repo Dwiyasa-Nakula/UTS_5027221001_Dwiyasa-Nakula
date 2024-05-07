@@ -7,7 +7,7 @@ Mini project Mata kuliah Integrasi Sistem menggunakan gRPC, Protobuf, dan Golang
 Project ini memiliki feature sebagai berikut:
 - Memiliki fitur CRUD
 - Koneksi ke database (MongoDB)
-- backend tergubung ke database
+- backend terhubung ke database
 - Mengimplementasikan UI
 - Mengimplemetasikan Soundcloud API untuk music player
 

@@ -398,13 +398,13 @@ var songsTemplate = `
 					<label for="title{{.Id}}">New Title:</label><br>
 					<input type="text" id="title{{.Id}}" name="title" value="{{.Title}}"><br>
 					<label for="artist{{.Id}}">New Artist:</label><br>
-					<input id="artist{{.Id}}" name="artist">{{.Artist}}</input><br><br>
+					<input type="text" id="artist{{.Id}}" name="artist" value="{{.Artist}}"><br>
                     <label for="album{{.Id}}">New Album:</label><br>
 					<input type="text" id="album{{.Id}}" name="album" value="{{.Album}}"><br>
 					<label for="duration{{.Id}}">New Duration:</label><br>
-					<input id="duration{{.Id}}" name="duration">{{.Duration}}</input><br><br>
+					<input type="text" id="duration{{.Id}}" name="duration" value="{{.Duration}}"><br>
 					<label for="link{{.Id}}">New Link:</label><br>
-					<input id="link{{.Id}}" name="link">{{.Link}}</input><br><br>
+					<input type="text" id="link{{.Id}}" name="link" value="{{.Link}}"><br>
 					<input type="submit" value="Update Song">
 					<a href="/playlist" class="back-btn">Back</a>
 				</form>
